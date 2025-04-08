@@ -23,180 +23,179 @@ const greeting = {
   username: "Anuj Ramatri",
   title: "Hi, I'm Anuj",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate advocate for sustainable living and founder of EcoFreaky, dedicated to making eco-friendly products accessible and affordable."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lyhWRzieMqqNgv_VREYpghX-yANTMsoP/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/anujramatri",
+  linkedin: "https://www.linkedin.com/in/anujramatri/",
+  gmail: "ramatri.anuj@gmail.com",
+  facebook: "https://www.facebook.com/anujramatri/",
+  instagram: "https://www.instagram.com/anujramatri/",
+  twitter: "https://x.com/anujramatri",
+  youtube: "https://www.youtube.com/c/AnujRamatri",
+  display: true
 };
+
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "PROMOTING SUSTAINABLE LIVING THROUGH INNOVATIVE SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Founder of EcoFreaky, an e-commerce platform offering eco-friendly products in personal care, stationery, fashion, and home decor."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Founder of Small Box Office, focusing on creative media solutions."
+    ),
+    emoji(
+      "⚡ Content creation and filmmaking to raise awareness about environmental issues and sustainable practices."
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Filmmaking",
+      fontAwesomeClassname: "fas fa-video"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Content Creation",
+      fontAwesomeClassname: "fas fa-pencil-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Social Media Management",
+      fontAwesomeClassname: "fas fa-share-alt"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Entrepreneurship",
+      fontAwesomeClassname: "fas fa-lightbulb"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
 // Education Section
 
+
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set to true if you want to display your education details
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "St. John's School",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "High School Diploma",
+      duration: "Year - Year",
+      desc: "Description of your time at the school.",
+      descBullets: ["Achievement 1", "Achievement 2"]
     }
+    // Add more schools as needed
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Graphic Design", // Expertise in graphic design
+      progressPercentage: "90%" // High proficiency
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Motion Design", // Experience in motion design
+      progressPercentage: "85%" // High proficiency
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Film Editing", // Skills in film editing
+      progressPercentage: "80%" // Significant proficiency
+    },
+    {
+      Stack: "Screenwriting", // Experience in screenwriting
+      progressPercentage: "75%" // Considerable proficiency
+    },
+    {
+      Stack: "Frontend Development", // Knowledge in frontend development
+      progressPercentage: "70%" // Solid proficiency
+    },
+    {
+      Stack: "Business Development", // Experience as a founder and business owner
+      progressPercentage: "85%" // High proficiency
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set to false as coding platforms aren't the primary focus
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Founder",
+      company: "Small Box Office",
+      companylogo: require("./assets/images/sboLogo.webp"), // Replace with actual logo path
+      date: "Apr 2023 – Present",
+      desc: "Leading a dynamic team to create engaging, tailored content for brands. Focus on video production, content creation, and social media management.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Spearheaded innovative storytelling projects",
+        "Helped brands connect through impactful media content"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Chief Executive Officer",
+      company: "EcoFreaky",
+      companylogo: require("./assets/images/ecofreakyLogo.avif"), // Replace with actual logo path
+      date: "Jan 2022 – Present",
+      desc: "Overseeing operations and growth of EcoFreaky, a sustainability-focused initiative."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Film Director",
+      company: "Purani Dili Talkies",
+      companylogo: require("./assets/images/pdtLogo.jpeg"), // Replace with actual logo path
+      date: "May 2015 – Feb 2023",
+      desc: "Directed and produced films with a deep cultural and social impact for over 7 years."
+    },
+    {
+      role: "Film Director",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelanceLogo.webp"), // Replace with actual logo path
+      date: "Mar 2015 – May 2015",
+      desc: "Directed independent projects for various clients and platforms."
+    },
+    {
+      role: "Associate Creative Director",
+      company: "Locus Design",
+      companylogo: require("./assets/images/freelanceLogo.webp"), // Replace with actual logo path
+      date: "Jun 2013 – May 2015",
+      desc: "Led creative direction and storytelling strategy for design projects."
+    },
+    {
+      role: "Film Director",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelanceLogo.webp"),
+      date: "Feb 2013 – Jun 2013",
+      desc: "Worked independently on film direction and production."
+    },
+    {
+      role: "Assistant Film Director",
+      company: "Xebec Films",
+      companylogo: require("./assets/images/freelanceLogo.webp"), // Replace with actual logo path
+      date: "Jan 2011 – Feb 2013",
+      desc: "Assisted in the direction and production of various film projects."
+    },
+    {
+      role: "Editor in Chief",
+      company: "XPLOIT News",
+      companylogo: require("./assets/images/freelanceLogo.webp"), // Replace with actual logo path
+      date: "Mar 2010 – Dec 2010",
+      desc: "Monitored and edited footage from multiple feeds for corporate films."
     }
   ]
 };
@@ -205,164 +204,232 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "STARTUPS AND COMPANIES WHERE I'VE CONTRIBUTED TO TECHNOLOGY AND SUSTAINABILITY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecofreakyLogo.avif"), // Replace with actual logo path
+      projectName: "EcoFreaky",
+      projectDesc: "Founded an e-commerce platform offering eco-friendly products to promote sustainable living.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.ecofreaky.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/sboLogo.webp"), // Replace with actual logo path
+      projectName: "Small Box Office",
+      projectDesc: "Established a creative digital agency specializing in video production, content creation, and social media management.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.smallboxoffice.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pdtLogo.jpeg"), // Replace with actual logo path
+      projectName: "Purani Dili Talkies",
+      projectDesc: "Directed and produced over 150 films, including documentaries, short films, web series, and corporate films.",
+      footerLink: [
+        {
+          name: "Visit YouTube Channel",
+          url: "https://www.youtube.com/c/AnujRamatri"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sboLogo.webp"), // Replace with actual logo path
+      projectName: "Packmate",
+      projectDesc: "Collaborated with a startup creating eco-friendly products like notebooks from recycled paper.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=6DLhCP4uU78"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sboLogo.webp"), // Replace with actual logo path
+      projectName: "Code Effort",
+      projectDesc: "Highlighted the initiative of recycling cigarette butts into useful products through a dedicated film project.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.linkedin.com/posts/anujramatri_filmmaking-innovation-inspiration-activity-7213548232243650560-kIKF"
         }
       ]
     }
+    // Add more projects as needed
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements and Recognitions 🏆"),
+  subtitle: "Notable awards and recognitions I've received for my contributions to sustainability and content creation.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "RAD Creators Award - Sustainability Champion",
+      subtitle: "Honored as the Sustainability Champion at the inaugural RAD Creators Awards for promoting environmental sustainability through engaging content.",
+      image: require("./assets/images/radLogo.webp"), // Replace with actual logo path
+      imageAlt: "RAD Creators Award Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Announcement Video",
+          url: "https://www.instagram.com/radcreatorawards/reel/DBqgM_CJiJV/"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "My Instagram Post",
+          url: "https://www.instagram.com/anujramatri/p/DBWL8EyodLx/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "National Creators Award Nominee - Green Champion",
+      subtitle: "Nominated in the Green Champions category at the National Creators Award by MyGov India for contributions to environmental awareness.",
+      image: require("./assets/images/nationalaward.jpeg"), // Replace with actual logo path
+      imageAlt: "National Creators Award Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "LinkedIn Announcement",
+          url: "https://www.linkedin.com/posts/anujramatri_nationalcreatorsaward-greenchampion-inspiration-activity-7174430043731894273-ZmIE"
+        },
+        {
+          name: "Instagram Post",
+          url: "https://www.instagram.com/anujramatri/p/C4TRa6BI6xK/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "TEDx Speaker",
+      subtitle: "Invited to speak at TEDx to share insights on environmental issues and advocate for sustainable practices.",
+      image: require("./assets/images/tedxlogo.jpeg"), // Replace with actual logo path
+      imageAlt: "TEDx Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "LinkedIn Post",
+          url: "https://www.linkedin.com/posts/anujramatri_environment-tedx-activity-7013455942469988352-Ju_z"
+        }
+      ]
+    },
+    {
+      title: "Forbes India Digital Star",
+      subtitle: "Recognized by Forbes India as a Digital Star for advocating sustainable living and founding EcoFreaky, an e-commerce platform for eco-friendly products.",
+      image: require("./assets/images/forbesLogo.png"), // Replace with actual logo path
+      imageAlt: "Forbes India Logo",
+      footerLink: [
+        {
+          name: "Forbes Profile",
+          url: "https://www.forbesindia.com/lists/2024-digital-stars/profile/anuj-ramatri/100"
         }
       ]
     }
+    // Add more achievements as needed
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section
 };
+
 
 // Blogs Section
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  subtitle: "Sharing insights and tips on sustainable living and eco-friendly practices.",
+  displayMediumBlogs: false, // Set to false to display hardcoded blogs
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://www.ecofreaky.com/blogs/news/how-plastic-usage-decreases-the-average-human-life",
+      title: "How Plastic Usage Decreases the Average Human Life",
+      description: "Exploring the detrimental impact of plastic on health and the environment, and advocating for reduced usage."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://www.ecofreaky.com/blogs/news/eco-friendly-festivities-how-to-celebrate-indian-festivals-sustainably",
+      title: "Eco-Friendly Festivities: How to Celebrate Indian Festivals Sustainably",
+      description: "Guidelines on adopting eco-conscious practices during Indian festivals to protect our planet."
+    },
+    {
+      url: "https://www.ecofreaky.com/blogs/news/the-hidden-environmental-cost-of-plastic-how-you-can-reduce-it",
+      title: "The Hidden Environmental Cost of Plastic & How You Can Reduce It",
+      description: "Unveiling the environmental impact of plastic and offering strategies for reduction."
+    },
+    {
+      url: "https://www.ecofreaky.com/blogs/news/how-to-transition-to-a-zero-waste-lifestyle-a-beginners-guide",
+      title: "How to Transition to a Zero-Waste Lifestyle: A Beginner's Guide",
+      description: "A comprehensive guide for beginners on adopting a zero-waste lifestyle."
+    },
+    {
+      url: "https://www.ecofreaky.com/blogs/news/sustainable-living-made-easy-a-guide-to-ecofreakys-organic-bamboo-products",
+      title: "Sustainable Living Made Easy: A Guide to EcoFreaky's Organic Bamboo Products",
+      description: "Introducing EcoFreaky's organic bamboo products as a step towards sustainable living."
     }
+    // Additional blogs can be added here
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set to false to hide this section
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  title: "Talks",
+  subtitle: emoji("I love to share my knowledge and experiences on sustainability and filmmaking."),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "TEDxBHISKanpur Talk on Environmental Awareness",
+      subtitle: "Spoke about the importance of environmental conservation and sustainable practices at TEDxBHISKanpur.",
+      slides_url: "", // Add if available
+      event_url: "https://www.ted.com/tedx/events/52532"
+    },
+    {
+      title: "Young Entrepreneurs' Summit 2024",
+      subtitle: "Delivered a session on eco-entrepreneurship and founding EcoFreaky at the Young Entrepreneurs' Summit 2024.",
+      slides_url: "", // Add if available
+      event_url: "https://www.instagram.com/yefujjain/p/DDJWGAVT5GC/"
+    },
+    {
+      title: "EcoBricks - A Solution To Plastic Pollution",
+      subtitle: "Presented a live session on utilizing EcoBricks to combat plastic pollution.",
+      slides_url: "", // Add if available
+      event_url: "https://m.youtube.com/live/lNgAW4VRcKo?pp=QAFIAQ%3D%3D"
     }
+    // Add more talks as needed
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I love discussing sustainability and eco-friendly practices.",
 
-  // Please Provide with Your Podcast embeded Link
+  // Embed links to your podcast appearances
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/embed/h1SUgqL73BU", // Carry Poop Bag And Save Mountains | Anuj Ramatri
+    "https://www.youtube.com/embed/N1eZQIhqGik", // This Machine Extracts Water From Air | Anuj Ramatri
+    "https://www.youtube.com/embed/j_W_Xe4gujA"  // Be Responsible Save Our Soil For A Better Future | Anuj Ramatri
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section
 };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "Portfolio",
+  subtitle: "Feel free to download my portfolio",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -370,11 +437,11 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
+  number: "+91-8595048869", // Replace with your actual phone number
+  email_address: "anuj.ramatri@gmail.com" // Replace with your actual email address
 };
+
 
 // Twitter Section
 
